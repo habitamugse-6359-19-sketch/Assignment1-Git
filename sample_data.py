@@ -1,0 +1,1 @@
+weight = input("Your weight in KG : \n") height = input("Your height in meter : \n") w = float(weight) h = float(height) bmi = w/(h**2) print("A person with "+ str(w)+ "kg Weight and height of " + str(h) + " meter will have a bmi value of "+str(bmi)) if bmi <=18:     print("Underweight") elif bmi <25:     print("Normal") else:     print("Over weight")
